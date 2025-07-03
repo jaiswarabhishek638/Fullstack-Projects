@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html,body {
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .page {
+      height: 80%;
+      width: 50vw;
+      padding: 23px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-left: 25%;
+      border: 2px solid rgb(11, 11, 11);
+      border-radius: 18px;
+    }
+    .img {
+      text-align: center;
+    }
+    .data{
+        margin: 15px;
+        padding: 2px;
+        margin-left: 35px;
+        border:2px solid black;
+        border-radius: 5px;
+    }
+    .detail{
+        margin-top: 10px;
+    }
+    .read{
+        background-color: rgb(218, 255, 255);
+        margin: 13px;
+        padding: 12px;
+        border: 2px solid white;
+        border-radius: 18px ;
+        position: absolute;
+        bottom: 18%;
+        right: 45%;
+
+    }
+    a:hover{
+        background-color: aqua;
+
+    }
+    a::after{
+        background-color: cornflowerblue;
+    }
+  </style>
+  <body>
+    <div class="page">
+      <div class="img">
+        <img height="400px" width="750px" src="img5.jpg" alt="card image" />
+      </div>
+      <button class="data">Nature</button>
+      <button class="data">Lake</button>
+      <div class="header">
+        <h1>Lago di Braies</h1>
+      </div>
+      <div class="detail">
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+        blanditiis, fugiat deleniti animi quis maxime iure. Modi esse ullam
+        dignissimos facere harum, facilis aliquid debitis tenetur vero
+        voluptatibus voluptatum optio molestias architecto nisi quo dolorum in
+        nesciunt quisquam velit vel sunt? Exercitationem vel temporibus enim? &nbsp;
+      </div>
+     <a class="read" href="https://www.google.com">Read More</a>
+    </div>
+  </body>
+</html>
