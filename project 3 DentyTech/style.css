@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav1{
+    font-size: 14px;
+    display: flex;
+    
+}
+.nav1 h3{
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 6px;
+
+}
+.nav1 i{
+    
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 8px;
+
+}
+.nav2{
+font-size: 18px;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+}
+.nav3{
+    font-size: 20px;
+    gap: 0px;
+    
+}
+.b1{
+    border: 1.3px solid  rgb(0, 0, 0);
+    border-radius: 14px;
+    padding: 7px;
+}
+.b2{
+    border: 2px solid  rgba(255, 255, 255, 0);
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 7px;
+
+}
+
+#main>h1{
+    font-size: 140px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+
+img{
+    height: 400px;
+    width: 290px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+}
+#img1{
+    
+   transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg); 
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg); 
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.btnleft{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.btnright{
+    position:absolute;
+    right: 5%;
+    bottom: 5%;
+}
+#iconright{
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    padding: 18px;
+    
+    
+   
+
+}
+#fb{
+   margin-left:25px;
+}
+#yt{
+    margin-left: 25px;
+}
+#ig{
+    margin-left: 25px;
+}
